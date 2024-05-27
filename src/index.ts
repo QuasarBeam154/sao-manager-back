@@ -1,11 +1,13 @@
 import express from 'express'
 import characterRoutes from './routes/charRoutes'
+import guildRoutes from './routes/guildRoutes'
 
 const app = express()
 const port = 3000
 
 app.use(express.json())
 app.use('/api', characterRoutes)
+app.use('/api', guildRoutes)
 
 app.get('/', (req, res) => {
   res.send('Hello, Sword Art Online!')
