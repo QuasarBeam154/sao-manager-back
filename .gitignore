@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Diretórios de compilação do TypeScript
+dist/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dependências do Editor/IDE
+.vscode/
+.idea/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Outros
+*.swp
+*.swo
