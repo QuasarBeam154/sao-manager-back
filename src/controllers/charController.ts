@@ -1,6 +1,6 @@
 import { Request, Response } from 'express'
 
-interface Character {
+type Character = {
   id: number
   name: string
   race: string
