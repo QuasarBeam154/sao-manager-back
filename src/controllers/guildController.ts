@@ -1,6 +1,6 @@
 import { Request, Response } from "express"
 
-interface Guild {
+type Guild = {
   id: number
   name: string
   description: string
